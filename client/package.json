@@ -3,13 +3,13 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview",
-    "vercel-build": "npm install --legacy-peer-deps && next build"
-  },
+"scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+  "preview": "vite preview",
+  "vercel-build": "npm install --legacy-peer-deps && vite build"
+},
   "dependencies": {
     "@clerk/clerk-react": "^5.2.7",
     "@google/generative-ai": "^0.15.0",
